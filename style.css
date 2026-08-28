@@ -3,26 +3,26 @@ body {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-  background: black;
-  color: #e8edf2;
+  background: #0f172a;
+  color: #f8fafc;
 }
 
 h1 {
   text-decoration: underline;
   text-shadow: 
-    -1px -1px 0 mediumpurple,  
-     1px -1px 0 mediumpurple,
-    -1px  1px 0 mediumpurple,  
-     1px  1px  mediumpurple,
-     0    0   12px purple; 
-  color: black;
+    -1px -1px 0 #38bdf8,  
+     1px -1px 0 #38bdf8,
+    -1px  1px 0 #38bdf8,  
+     1px  1px 0 #38bdf8,
+     0    0   12px #0284c7; 
+  color: #0f172a;
   text-align: center;
   margin-bottom: 25px;
 }
 
 h3 {
-  text-shadow: 0 0 10px purple;
-  color: Orchid;
+  text-shadow: 0 0 10px #0284c7;
+  color: #7dd3fc;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -39,19 +39,18 @@ span {
   width: 100%;
   padding: 15px;
   font-size: 16px;
-  border: 1px solid #242b32;
-  background: black;
-  color: gray;
+  border: 1px solid #1e293b;
+  background: #0f172a;
+  color: #94a3b8;
   border-radius: 5px;
   box-sizing: border-box;
   outline: none;
 }
 
 #pesquisaInput:focus {
-  border-color: mediumpurple;
-  box-shadow: purple;
+  border-color: #38bdf8;
+  box-shadow: 0 0 8px #0284c7;
 }
-
 
 ul {
   list-style: none;
@@ -66,18 +65,18 @@ li {
 a {
   display: block;
   padding: 15px;
-  background: rgb(14, 17, 26);;
-  color: #4B0082;
+  background: #1e293b;
+  color: #38bdf8;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
   text-align: center;
-  border: 1px solid #242b32;
+  border: 1px solid #334155;
   transition: box-shadow 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
 a:hover {
-  box-shadow: 0 0 10px purple;
-  border-color:  mediumpurple;
-  color:  mediumpurple;
+  box-shadow: 0 0 10px #0284c7;
+  border-color: #38bdf8;
+  color: #7dd3fc;
 }
